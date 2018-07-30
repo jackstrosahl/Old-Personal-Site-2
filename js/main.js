@@ -338,7 +338,7 @@
                 $.ajax({
     
                     type: "POST",
-                    url: "inc/sendEmail.php",
+                    url: "https://www.strosahl.org/sendEmail.php",
                     data: $(form).serialize(),
                     beforeSend: function() { 
     

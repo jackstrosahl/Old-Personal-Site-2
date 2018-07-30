@@ -1,289 +1,332 @@
-<!DOCTYPE HTML>
-<html lang="en-us">
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-	<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="I am studying Computer Science at University of Wisconsin-Madison.">
-	<meta name="author" content="Jack Strosahl">
-	<meta name="generator" content="Hugo 0.42" />
-	<title>Forty</title>
-	<!-- Stylesheets -->
-	
-	<link rel="stylesheet" href="css/main.css"/>
-	
-	
+<head>
 
-	
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Jack Strosahl</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<!-- Custom Fonts -->
-	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	<script src="js/ie/html5shiv.js"></script>
-	<script src="js/ie/html5shiv.jsrespond.min.js"></script>
-	<![endif]-->
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
-	<body>
 
-	<!-- Wrapper -->
-		<div id="wrapper">
+<body id="top">
 
-			<!-- Header -->
-    <header id="header" class="alt">
-        <a href="" class="logo"><strong>Forty</strong> <span>By HTML5 Up</span></a>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
-    </header>
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-<!-- Menu -->
-    <nav id="menu">
-        <ul class="links">
-            
-                <li><a href="">Home</a></li>
-            
-                <li><a href="blogs">Blogs</a></li>
-            
-                <li><a href="blogs/ipsum">Generic Blog</a></li>
-            
-                <li><a href="elements.html">Elements</a></li>
-            
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/jsicon.png" alt="Homepage">
+            </a>
+        </div>
 
-        </ul>
-        <ul class="actions vertical">
-            
-                <li><a href="blogs" class="button special fit">Get Started</a></li>
-            
-            
-                <li><a href="" class="button fit">Log In</a></li>
-            
-        </ul>
-    </nav>
+        <nav class="header-nav">
 
-			<!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>Jack Strosahl</h1>
-            </header>
-            <div class="content">
-                <p>I am studying Computer Science at University of Wisconsin-Madison.</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get to know me</a></li>
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                    <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
+    
+                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+    
+                <ul class="header-nav__social">
+                    <li>
+						<a href="https://github.com/jackstrosahl"><i class="fa fa-github" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/strosahl"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/JackStrosahl"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/jack_stro/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <!--<a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>-->
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/stevejohnson.png" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+                <img src="images/gradfacemasked.png" style="padding-bottom : 5px"/>
+				<h3>Jack Strosahl</h3>
+				
+                <h1>
+                    Developer. <br>
+					Student.
+                </h1>
+
+                <div class="home-content__buttons">
+					<!--TODO
+                    <a href="#portfolio" class="smoothscroll btn btn--stroke">
+                        Portfolio
+                    </a>
+					-->
+                    <a href="#contact" class="smoothscroll btn btn--stroke">
+                        Contact me
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#contact" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+            <div class="home-content__line"></div>
+			
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+			<li>
+                <a href="https://github.com/jackstrosahl"><i class="fa fa-github" aria-hidden="true"></i><span>Github</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/strosahl"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/JackStrosahl"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/jack_stro/"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+	
+	<section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Me</h3>
             </div>
         </div>
-    </section>
 
-		<!-- Main -->
-			<div id="main">
+        <div class="row contact-content" data-aos="fade-up">
+            
+            <div class="contact-primary">
 
-				
-					<!-- Header -->
-    <section id="one" class="tiles">
-        
-        <article>
-            <span class="image">
-                <img src="img/pic01.jpg" alt="" />
-            </span>
-            <header class="major">
-                <h3><a href="blogs/aliquam" class="link">Aliquam</a></h3>
-                <p>Ipsum Dolor Sit Amet</p>
-            </header>
-        </article>
-        
-        <article>
-            <span class="image">
-                <img src="img/pic02.jpg" alt="" />
-            </span>
-            <header class="major">
-                <h3><a href="blogs/tempus" class="link">Tempus</a></h3>
-                <p>Feugiat Amet Tempus</p>
-            </header>
-        </article>
-        
-        <article>
-            <span class="image">
-                <img src="img/pic03.jpg" alt="" />
-            </span>
-            <header class="major">
-                <h3><a href="blogs/magna" class="link">Magna</a></h3>
-                <p>Lorem Etiam Nullam</p>
-            </header>
-        </article>
-        
-        <article>
-            <span class="image">
-                <img src="img/pic04.jpg" alt="" />
-            </span>
-            <header class="major">
-                <h3><a href="blogs/ipsum" class="link">Ipsum</a></h3>
-                <p>Nisl Sed Aliquam</p>
-            </header>
-        </article>
-        
-        <article>
-            <span class="image">
-                <img src="img/pic05.jpg" alt="" />
-            </span>
-            <header class="major">
-                <h3><a href="blogs/ipsum" class="link">Consequat</a></h3>
-                <p>Ipsum Dolor Sit Amet</p>
-            </header>
-        </article>
-        
-        <article>
-            <span class="image">
-                <img src="img/pic06.jpg" alt="" />
-            </span>
-            <header class="major">
-                <h3><a href="blogs/ipsum" class="link">Etiam</a></h3>
-                <p>Feugiat Amet Tempus</p>
-            </header>
-        </article>
-        
-    </section>
-				
 
-				
-					<!-- Two -->
-    <section id="two">
-        <div class="inner">
-            <header class="major">
-                <h2>Massa libero</h2>
-            </header>
-            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-            <ul class="actions">
-                <li><a href="blogs" class="button next">Get Started</a></li>
-            </ul>
-        </div>
-    </section>
-				
-
-			</div>
-
-		<!-- Contact -->
-			
-				<!-- Contact -->
-    <section id="contact">
-        <div class="inner">
-            <section>
-                <form method="post" action="https://formspree.io/">
-                    <div class="field half first">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="field half">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" />
-                    </div>
-                    <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
-                    </div>
-                    <ul class="actions">
-                        <li><input type="submit" value="Send message" class="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
-                    </ul>
-                </form>
-            </section>
-            <section class="split">
-                <section>
-                    <div class="contact-method">
-                        <span class="icon alt fa-envelope"></span>
-                        
-                        <h3>Email</h3>
-                        <a href="mailto:example@domain.com">example@domain.com</a>
-                        
-                    </div>
-                </section>
-                <section>
-                    <div class="contact-method">
-                        <span class="icon alt fa-phone"></span>
-                        
-                        <h3>Phone</h3>
-                        <span>(000) 000-0000 x1234</span>
-                        
-                    </div>
-                </section>
-                <section>
-                    <div class="contact-method">
-                        <span class="icon alt fa-home"></span>
-                        
-                        <h3>Address</h3>
-                        <span>Street<br />
-                        City, ST 00000<br />
-                        Country</span>
-                        
-                    </div>
-                </section>
-            </section>
-        </div>
-    </section>
-
-			
-
-		<!-- Footer -->
-			
-				<!-- Footer -->
-    <footer id="footer">
-        <div class="inner">
-            <ul class="icons">
-                
-                    <li><a href="https://www.twitter.com" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                
-                    <li><a href="https://www.facebook.com" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-                
-                    <li><a href="https://www.instagram.com" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-                
-                    <li><a href="https://www.github.com" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-                
-                    <li><a href="https://www.linkedin.com" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-                
-            </ul>
-            <ul class="copyright">
-                <li>&copy; Company Name</li>
-                
-                <li>Design:  <a href="https://www.html5up.net">HTML5 UP</a></li>
-                
-            </ul>
-        </div>
-    </footer>
-
-			
-
-		</div>
-
-	<!-- Scripts -->
-		<!-- Scripts -->
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.scrolly.min.js"></script>
-    <script src="js/jquery.scrollex.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/util.js"></script>
-
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
     
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
 
-    <!-- Main JS -->
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+            </div> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+
+
+                    <div class="cinfo">
+                        <h5>Email Me At</h5>
+                        <p>
+                            jack@strosahl.org
+                        </p>
+                    </div>
+
+                    <ul class="contact-social">
+                        <li>
+							<a href="https://github.com/jackstrosahl"><i class="fa fa-github" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/strosahl"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="https://twitter.com/JackStrosahl"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/jack_stro/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+	
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Glint 2017</span> 
+                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-    
+</body>
 
-    
-
-	</body>
 </html>

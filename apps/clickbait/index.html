@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+	<div class = "center">
+	<h1>Clickbait Generator</h1>
+	<p>This gets the 200 most popular videos on YouTube, and using those titles generates a new one with Markov Chains.  It also picks a random thumbnail from one video.</p> 
+      <img id="thumbnail">
+	  <h2 id="title"></h1>
+	  <button style="font-size:30px" onclick="onClick()">Regenerate</button>
+	  <h3>Actual Titles:</h3>
+	  <p style="white-space:pre-line" id="titles"/>
+	</div>
+
+</body></html>
